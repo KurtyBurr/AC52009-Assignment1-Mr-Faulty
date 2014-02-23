@@ -38,7 +38,7 @@ public class DoLogin extends HttpServlet {
 		try{
 		
 	    Class.forName("com.mysql.jdbc.Driver").newInstance();
-	    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Faultdb","root","Cl1m8t3;");
+	    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kfaultdb","root","Cl1m8t3;");
 	    
 	    ResultSet rsdoLogin = null;
 	    PreparedStatement psdoLogin = null;

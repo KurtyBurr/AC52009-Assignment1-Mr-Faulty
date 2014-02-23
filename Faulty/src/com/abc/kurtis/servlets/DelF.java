@@ -27,7 +27,7 @@ import com.abc.kurtis.models.*;
 				"/DelF",
 		}, 
 		initParams = { 
-				@WebInitParam(name = "data-source", value = "jdbc/Faultdb")
+				@WebInitParam(name = "data-source", value = "jdbc/kfaultdb")
 		})
 public class DelF extends HttpServlet {
 	private static final long serialVersionUID = 1L;

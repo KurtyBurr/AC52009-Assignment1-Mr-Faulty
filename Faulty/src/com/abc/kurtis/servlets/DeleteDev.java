@@ -36,7 +36,7 @@ import java.util.LinkedList;
 		urlPatterns = {"/DeleteDev"
 		}, 
 		initParams = { 
-				@WebInitParam(name = "data-source", value = "jdbc/Faultdb")
+				@WebInitParam(name = "data-source", value = "jdbc/kfaultdb")
 		})
 public class DeleteDev extends HttpServlet {
 	private DataSource _ds = null;

@@ -35,7 +35,7 @@ import java.util.LinkedList;
 		urlPatterns = {"/ListReporters"
 		}, 
 		initParams = { 
-				@WebInitParam(name = "data-source", value = "jdbc/Faultdb")
+				@WebInitParam(name = "data-source", value = "jdbc/kfaultdb")
 		})
 public class ListReporters extends HttpServlet {
 	private DataSource _ds = null;

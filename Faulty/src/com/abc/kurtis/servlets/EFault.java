@@ -27,7 +27,7 @@ import com.abc.kurtis.models.*;
 				"/EFault",
 					}, 
 		initParams = { 
-				@WebInitParam(name = "data-source", value = "jdbc/Faultdb")
+				@WebInitParam(name = "data-source", value = "jdbc/kfaultdb")
 		})
 public class EFault extends HttpServlet {
 	private static final long serialVersionUID = 1L;
